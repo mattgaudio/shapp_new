@@ -15,6 +15,7 @@
   a {
     color: #000;
     line-height: 1.5rem;
+    font-weight: bold;
     &:hover {
       text-decoration: underline;
     }
@@ -24,23 +25,38 @@
 .hero1-row {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-direction: row;
   height: 15vh;
-  color: #fff;
+  color: #000;
+  .title-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    border-radius: 15px;
+    background-color: rgba(#d2d2d2, 0.5);
+    h5 {
+      padding-left: 2rem;
+    }
+  }
 }
 .hero2-row {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-direction: row;
-  height: 65vh;
-  font-weight: bold;
   .col-lg-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .col-lg-9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 .hero3-row {
@@ -51,41 +67,29 @@
   height: 10vh;
 }
 
-.title-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .row {
-    background-color: rgba(#d2d2d2, 0.5);
-    border-radius: 25px;
-    padding: 1.5rem;
-    width: 100%;
-    color: #000;
-    .col-lg-12 {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  }
-}
-
 .hero-col {
   background-color: rgba(#d2d2d2, 0.5);
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 65vh;
+  padding: 2.5rem;
 }
 
 #hero .carousel {
-  height: 55vh;
+  height: 56vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.about-info {
+  font-size: 16px;
+  font-weight: regular;
 }
 
 .logo-img {
@@ -95,6 +99,6 @@
 
 .hero-footer-row {
   background-color: rgba(#d2d2d2, 0.5);
-  border-radius: 25px;
-  padding: 0.75rem 0;
+  border-radius: 15px;
+  padding: 0.65rem 0;
 }
