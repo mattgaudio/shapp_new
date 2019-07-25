@@ -109,6 +109,7 @@
 // change
 
 #our-people {
+  padding: 4.5vh 0;
   min-height: 100vh;
   width: 100%;
   color: #000;
@@ -223,6 +224,7 @@
 // change
 
 #client {
+  padding: 4.5vh 0;
   min-height: 100vh;
   width: 100%;
   background-image: url("back20.jpg");
@@ -270,6 +272,7 @@
 // changes
 
 #services {
+  padding: 4.5vh 0;
   min-height: 100vh;
   width: 100%;
   background-image: url("back3.jpg");
@@ -303,6 +306,11 @@
 // changes
 
 #company-news {
+  padding: 4.5vh 0;
   width: 100%;
   min-height: 100vh;
+  background-image: url("back22.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
 }
