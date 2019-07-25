@@ -36,7 +36,7 @@
     align-items: center;
     padding: 1.75rem 2.5rem;
     border-radius: 15px;
-    background-color: rgba(#d2d2d2, 0.5);
+    background-color: rgba(#d2d2d2, 0.65);
     h5 {
       padding-left: 2rem;
       display: flex;
@@ -75,7 +75,7 @@
 }
 
 .hero-col {
-  background-color: rgba(#d2d2d2, 0.5);
+  background-color: rgba(#d2d2d2, 0.65);
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@
 }
 
 .hero-footer-row {
-  background-color: rgba(#d2d2d2, 0.5);
+  background-color: rgba(#d2d2d2, 0.65);
   border-radius: 15px;
   padding: 1.05rem 2.5rem;
 }
@@ -122,14 +122,14 @@
   background-size: cover;
   background-repeat: none;
   .col-lg-8 {
-    background-color: rgba(#fff, 0.4);
+    background-color: rgba(#fff, 0.65);
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .col-lg-4 {
-    background-color: rgba(#000, 0.4);
+    background-color: rgba(#000, 0.65);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -154,7 +154,7 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  background-color: rgba(#fff, 0.25);
+  background-color: rgba(#fff, 0.6);
   width: 100%;
   color: #000;
   font-weight: bold;
@@ -172,7 +172,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(#000, 0.4);
+  background-color: rgba(#000, 0.65);
   &:hover {
     color: #fff;
   }
@@ -209,7 +209,7 @@
 }
 .people-links-col {
   min-height: 10vh;
-  background-color: rgba(#fff, 0.25);
+  background-color: rgba(#fff, 0.6);
 }
 
 .page-footer-row {
@@ -241,7 +241,7 @@
 #client {
   a {
     padding: 1.5rem 2.5rem;
-    background-color: rgba(#000, 0.5);
+    background-color: rgba(#000, 0.65);
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -257,7 +257,7 @@
   }
   p {
     padding: 4rem;
-    background-color: rgba(#000, 0.5);
+    background-color: rgba(#000, 0.65);
     color: #d2d2d2;
     margin: 2.5vh 0;
     line-height: 2;
@@ -289,7 +289,7 @@
 #services .services-div {
   width: 100%;
   min-height: 12rem;
-  background-color: rgba(#fff, 0.4);
+  background-color: rgba(#fff, 0.65);
   margin: 2.5vh 0;
   border-radius: 0px;
   display: flex;
@@ -303,7 +303,7 @@
     margin: 2vh 2.5vw;
   }
   &:hover {
-    background-color: rgba(#fff, 0.6);
+    background-color: rgba(#fff, 0.85);
     cursor: pointer;
   }
 }
