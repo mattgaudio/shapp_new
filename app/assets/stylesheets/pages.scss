@@ -165,31 +165,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(#000, 0.4);
   &:hover {
     color: #fff;
   }
 }
 
 .header-image-1 {
-  background-image: url("back15.jpg");
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: none;
+  // background-image: url("back15.jpg");
+  // background-position: center center;
+  // background-size: 100% 100%;
+  // background-repeat: none;
 }
 
 .header-image-2 {
-  background-image: url("wide2.jpg");
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: none;
-  color: #000;
+  // background-image: url("wide2.jpg");
+  // background-position: center center;
+  // background-size: 100% 100%;
+  // background-repeat: none;
+  // color: #000;
 }
 
 .header-image-3 {
-  background-image: url("wide3.jpg");
-  background-position: center center;
-  background-size: 100% 100%;
-  background-repeat: none;
+  // background-image: url("wide3.jpg");
+  // background-position: center center;
+  // background-size: 100% 100%;
+  // background-repeat: none;
 }
 
 .people-content-row {
@@ -270,7 +271,20 @@
   margin: 2.5vh 0;
   border-radius: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  h4 {
+    margin: 2vh 0;
+  }
+  p {
+    margin: 2vh 2.5vw;
+  }
+}
+
+// changes
+
+#company-news {
+  width: 100%;
+  min-height: 100vh;
 }
