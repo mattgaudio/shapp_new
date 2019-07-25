@@ -3,13 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #hero {
-  height: 90vh;
+  min-height: 90vh;
   width: 100%;
   background-image: url("back20.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: none;
-  background-color: #3d5558 !important;
+  background-color: #456 !important;
   display: flex;
   flex-direction: column;
   a {
@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 12vh;
+  min-height: 12vh;
   color: #000;
   .title-col {
     display: flex;
@@ -48,7 +48,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 66vh;
+  min-height: 66vh;
 
   .col-lg-3 {
     display: flex;
@@ -69,7 +69,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 12vh;
+  min-height: 12vh;
 }
 
 .hero-col {
@@ -116,6 +116,14 @@
   font-size: 18px;
   p:hover {
     color: rgba(#000, 0.75);
+  }
+  .col-lg-8 {
+    background-color: rgba(#fff, 0.25);
+    border-radius: 20px;
+  }
+  .col-lg-4 {
+    background-color: rgba(#000, 0.25);
+    border-radius: 20px;
   }
 }
 
