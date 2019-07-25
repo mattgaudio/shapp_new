@@ -114,6 +114,10 @@
   color: #000;
   letter-spacing: 0.05rem;
   font-size: 18px;
+  background-image: url("back19.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
   .col-lg-8 {
     background-color: rgba(#fff, 0.4);
     border-radius: 20px;
@@ -133,9 +137,6 @@
       width: 25rem;
       border-radius: 10px;
     }
-  }
-  .row {
-    margin: 2.5vh 0;
   }
   p {
     line-height: 1.75;
@@ -224,6 +225,10 @@
 #client {
   min-height: 100vh;
   width: 100%;
+  background-image: url("back20.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
 }
 
 #client {
@@ -264,6 +269,15 @@
 
 // changes
 
+#services {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("back3.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: none;
+}
+
 #services .services-div {
   width: 100%;
   min-height: 12rem;
@@ -279,6 +293,10 @@
   }
   p {
     margin: 2vh 2.5vw;
+  }
+  &:hover {
+    background-color: rgba(#fff, 0.6);
+    cursor: pointer;
   }
 }
 
