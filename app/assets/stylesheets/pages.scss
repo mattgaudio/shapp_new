@@ -114,16 +114,31 @@
   color: #000;
   letter-spacing: 0.05rem;
   font-size: 18px;
-  p:hover {
-    color: rgba(#000, 0.75);
-  }
   .col-lg-8 {
     background-color: rgba(#fff, 0.25);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .col-lg-4 {
     background-color: rgba(#000, 0.25);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    .people-img {
+      height: 15rem;
+      width: 25rem;
+      border-radius: 10px;
+    }
+  }
+  .row {
+    margin: 2.5vh 0;
+  }
+  p {
+    line-height: 1.75;
   }
 }
 
@@ -132,13 +147,24 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  background-color: rgba(#fff, 0.25);
+  background-color: rgba(#000, 0.25);
   width: 100%;
+}
+
+.header-image {
   background-image: url("back15.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: none;
   width: 100%;
+  min-height: 10vh;
+  color: #d2d2d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    color: #fff;
+  }
 }
 
 .people-content-row {
