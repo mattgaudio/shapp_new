@@ -260,3 +260,17 @@
     margin: 2.5vh 0;
   }
 }
+
+// changes
+
+#services .services-div {
+  width: 100%;
+  min-height: 12rem;
+  background-color: rgba(#fff, 0.4);
+  margin: 2.5vh 0;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
