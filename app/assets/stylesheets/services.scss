@@ -93,3 +93,89 @@
   -o-transition-property: width;
   transition-property: width;
 }
+
+// main hero
+
+#main-hero {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url("ship1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .row .row {
+    margin: 2.5vh 0;
+    padding: 3vh 0;
+    background-color: rgba(#000, 0.5);
+    border-radius: 20px;
+  }
+}
+
+.header-row {
+}
+
+.header-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-banner {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.header-info {
+  font-size: 1.25rem;
+  font-weight: italic;
+}
+
+.services-body-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-title {
+}
+
+.body-content {
+}
+
+// home-car
+
+#home-car {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url("pent1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .row .row {
+    margin: 2.5vh 0;
+    padding: 3vh 0;
+    border-radius: 20px;
+  }
+}
