@@ -3,6 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "application";
 
+// global
+body {
+  background-color: #3d5558 !important;
+}
+
 #sidebar .list-group-item {
   border-radius: 0;
   background-color: #333;

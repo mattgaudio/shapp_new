@@ -15,4 +15,10 @@
       background-color: rgba(#fff, 0.25);
     }
   }
+  .dropdown-item {
+    &:hover {
+      background-color: rgba(#456, 0.5);
+      border-radius: 0;
+    }
+  }
 }
